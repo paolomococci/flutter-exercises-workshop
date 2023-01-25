@@ -30,7 +30,10 @@ class ImmutableWidget extends StatelessWidget {
           Colors.lightBlue
         ],
         center: Alignment(-0.3, -0.5)
-      )
+      ),
+      boxShadow: [
+        BoxShadow(blurRadius: 20.0)
+      ]
     ),
   );
 }
