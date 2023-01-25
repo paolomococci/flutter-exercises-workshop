@@ -28,7 +28,8 @@ class ImmutableWidget extends StatelessWidget {
         colors: [
           Colors.lightBlueAccent,
           Colors.lightBlue
-        ]
+        ],
+        center: Alignment(-0.3, -0.5)
       )
     ),
   );
