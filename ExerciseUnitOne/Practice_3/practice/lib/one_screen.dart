@@ -20,7 +20,7 @@ class OneScreen extends StatelessWidget {
     body: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: const <Widget>[
-        ImmutableWidget()
+        ImmutableWidget(),
       ],
     ),
     drawer: Drawer(
