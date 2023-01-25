@@ -6,4 +6,6 @@ Simple project to practice with the Flutter framework, using, for the moment, on
 
 ```shell
 flutter create --platforms=web practice
+cd practice
+flutter run
 ```
