@@ -18,5 +18,10 @@ class OneScreen extends StatelessWidget {
       ],
     ),
     body: Column(),
+    drawer: Drawer(
+      child: Container(
+        color: Colors.lightBlue,
+      ),
+    ),
   );
 }
