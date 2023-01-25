@@ -21,6 +21,11 @@ class OneScreen extends StatelessWidget {
     drawer: Drawer(
       child: Container(
         color: Colors.lightBlue,
+        child: const Center(
+          child: Text(
+            'This is sample text.'
+          ),
+        ),
       ),
     ),
   );
