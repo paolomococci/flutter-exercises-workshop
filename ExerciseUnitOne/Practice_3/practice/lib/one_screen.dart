@@ -5,7 +5,5 @@ class OneScreen extends StatelessWidget {
   const OneScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    throw UnimplementedError();
-  }
+  Widget build(BuildContext context) => Container();
 }
