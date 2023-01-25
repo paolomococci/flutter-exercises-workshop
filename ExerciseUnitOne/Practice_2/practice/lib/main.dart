@@ -9,7 +9,5 @@ class StaticApp extends StatelessWidget {
   const StaticApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(home: ImmutableWidget(),);
-  }
+  Widget build(BuildContext context) => const MaterialApp(home: ImmutableWidget(),);
 }
