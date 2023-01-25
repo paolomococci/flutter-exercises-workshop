@@ -50,3 +50,6 @@ pubspec.lock
 .metadata
 HELP.md
 *.png
+
+# to include any screenshots
+!screenshots/*.png
