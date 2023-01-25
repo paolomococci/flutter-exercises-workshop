@@ -14,12 +14,12 @@ class ImmutableWidget extends StatelessWidget {
           color: Colors.purple,
           child: Padding(
             padding: const EdgeInsets.all(50.0),
-            child: Container(
-              color: Colors.blue,
-            ),
+            child: _buildShinyCircle(),
           ),
         ),
       ),
     );
   }
+  
+  Widget _buildShinyCircle() => Container();
 }
