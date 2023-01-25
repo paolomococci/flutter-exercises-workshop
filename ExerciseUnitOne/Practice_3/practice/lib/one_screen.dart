@@ -17,5 +17,6 @@ class OneScreen extends StatelessWidget {
         )
       ],
     ),
+    body: Column(),
   );
 }
