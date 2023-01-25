@@ -19,7 +19,9 @@ class OneScreen extends StatelessWidget {
     ),
     body: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: [],
+      children: const <Widget>[
+        ImmutableWidget()
+      ],
     ),
     drawer: Drawer(
       child: Container(
