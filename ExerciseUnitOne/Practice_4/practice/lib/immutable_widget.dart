@@ -25,7 +25,10 @@ class ImmutableWidget extends StatelessWidget {
     decoration: const BoxDecoration(
       shape: BoxShape.circle,
       gradient: RadialGradient(
-        colors: []
+        colors: [
+          Colors.lightBlueAccent,
+          Colors.lightBlue
+        ]
       )
     ),
   );
