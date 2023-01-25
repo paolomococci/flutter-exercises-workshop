@@ -6,12 +6,16 @@ class OneScreen extends StatelessWidget {
   const OneScreen({super.key});
 
   @override
-  Widget build(BuildContext context) => const Scaffold(
-    body: Center(
-      child: AspectRatio(
-        aspectRatio: 1.0,
-        child: ImmutableWidget(),
-      ),
+  Widget build(BuildContext context) => Scaffold(
+    appBar: AppBar(
+      backgroundColor: Colors.indigo,
+      title: const Text('Practice web application'),
+      actions: const <Widget>[
+        Padding(
+          padding: EdgeInsets.all(10.0),
+          child: ImmutableWidget(),
+        )
+      ],
     ),
   );
 }
