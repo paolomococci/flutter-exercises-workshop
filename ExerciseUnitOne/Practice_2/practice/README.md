@@ -9,7 +9,3 @@ flutter create --platforms=web practice
 cd practice
 flutter run
 ```
-
-## screenshot
-
-![practice web application view](screenshots/practice.png)
