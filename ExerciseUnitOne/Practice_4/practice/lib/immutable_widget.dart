@@ -21,5 +21,12 @@ class ImmutableWidget extends StatelessWidget {
     );
   }
   
-  Widget _buildShinyCircle() => Container();
+  Widget _buildShinyCircle() => Container(
+    decoration: const BoxDecoration(
+      shape: BoxShape.circle,
+      gradient: RadialGradient(
+        colors: []
+      )
+    ),
+  );
 }
