@@ -17,7 +17,10 @@ class OneScreen extends StatelessWidget {
         )
       ],
     ),
-    body: Column(),
+    body: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [],
+    ),
     drawer: Drawer(
       child: Container(
         color: Colors.lightBlue,
